@@ -92,17 +92,17 @@ def get_language(from_la, to_la):
     # Add more languages of your choice, from list found here: https://aka.ms/speech/tts-languages
     dict_output_voice = {
         # Uncommentted lines below are dictionary of Standard voices which are available to most region but with less result
-        # "英文-英国" : "en-GB-Susan-Apollo",
-        # "英文-美国" : "en-US-ZiraRUS",
-        # "中文-普通话" : "zh-CN-HuihuiRUS",
-        # "中文-粤语" : "zh-HK-Tracy-Apollo"
+        "英文-英国" : "en-GB-Susan-Apollo",
+        "英文-美国" : "en-US-ZiraRUS",
+        "中文-普通话" : "zh-CN-HuihuiRUS",
+        "中文-粤语" : "zh-HK-Tracy-Apollo"
         # Commentted lines below are dicitonary of Neural voices
         # Note that Neural voices are not available in some service region
         # More information about regions could be found here: https://docs.microsoft.com/zh-cn/azure/cognitive-services/speech-service/regions#standard-and-neural-voices
-        "英文-英国" : "en-GB-LibbyNeural",
-        "英文-美国" : "en-US-AriaNeural",
-        "中文-普通话" : "zh-CN-XiaoxiaoNeural",
-        "中文-粤语" : "zh-HK-HiuGaaiNeural"
+        # "英文-英国" : "en-GB-LibbyNeural",
+        # "英文-美国" : "en-US-AriaNeural",
+        # "中文-普通话" : "zh-CN-XiaoxiaoNeural",
+        # "中文-粤语" : "zh-HK-HiuGaaiNeural"
     }
 
     from_l = dict_from[from_la]
