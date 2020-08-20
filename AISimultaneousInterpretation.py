@@ -7,7 +7,7 @@ import threading
 
 # Set specified subscription key and service region.
 # Replace with your own subscription key and region identifier from here: https://aka.ms/speech/sdkregion
-speech_key, service_region = "73aabea889334e1fa1277dfd778d8f00", "westus"
+speech_key, service_region = "YourSubscriptionKey", "YourRegion"
 
 # Set default from_language, to_language and output_voice
 from_language, to_language, output_voice = "en-GB", "zh-Hans", "zh-CN-HuihuiRUS"
