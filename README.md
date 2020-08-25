@@ -5,18 +5,15 @@ More information about the service could be found [here](https://docs.microsoft.
 
 
 To run the code:
-1. 
 ```
-pip install
+pip install azure-cognitiveservices-speech
 ```
 
-2. 
 ```
-cd
+cd ThisFilesDictionary
+# ThisFilesDictionary is the dictionary where you stored this file
 ``` 
-to the dictionary where you stored this file
 
-3. 
 ```
 python3 AISimultaneousInterpretation.py
 ```
